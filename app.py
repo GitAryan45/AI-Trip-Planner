@@ -46,7 +46,7 @@ st.header("Planner: Discover and Plan your Culinary Adventures!")
 
 #Creating radio section choices
 section_choice = st.radio("Choose Section:", ("Location Finder", "Trip Planner", "Weather Forecasting", "Restaurant & Hotel Planner"))
-###########################################################################################
+############################################################################################
 #If the choice is location finder
 if section_choice == "Location Finder":
     upload_file = st.file_uploader("Choose an image", type = ["jpg", "jpeg", "png"])
